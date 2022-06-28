@@ -13,3 +13,24 @@ I am 26 years old and I work as a hydrological engineer. My work does not bring 
 - Diligence
 - Quick lernen
 - Teamwork
+
+# Skills
+- HTML
+- CSS
+- Git/GitHub
+
+# Code examples
+
+```
+function multiply(a, b){
+  return a * b
+}
+```
+# Education and courses
+- [PiedPiper](https://taycann.github.io/PiedPiper/)
+- [CV (Markdown)](#)
+- Stepik course (web development for beginners: HTML and CSS)
+# Languages
+* Russian - native speaker.
+* English - A1
+* Deutsch - A2
