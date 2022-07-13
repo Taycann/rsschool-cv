@@ -1,0 +1,78 @@
+/* Подключение шрифта */
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('HelveticaNeueCyr-Bold.eot');
+	src: local('HelveticaNeueCyr-Bold'),
+		url('HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeueCyr-Bold.woff') format('woff'),
+		url('HelveticaNeueCyr-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('HelveticaNeueCyr-Medium.eot');
+	src: local('HelveticaNeueCyr-Medium'),
+		url('HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeueCyr-Medium.woff') format('woff'),
+		url('HelveticaNeueCyr-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('HelveticaNeueCyr-Light.eot');
+	src: local('HelveticaNeueCyr-Light'),
+		url('HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeueCyr-Light.woff') format('woff'),
+		url('HelveticaNeueCyr-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+/* ------------------------------------------------------------------------- */
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+/* Стили для шапки сайта(header) */
+.header {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 50px;
+    color: white;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: wheat;
+    transition: .3s;
+}
+/* ------------------------------- */
