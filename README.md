@@ -1,1 +1,1 @@
-# rsschool-cv
+https://taycann.github.io/rsschool-cv/
