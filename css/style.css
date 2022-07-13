@@ -233,3 +233,25 @@ body {
     transform: translate(0px, -20px); /* Перемещает содержимое Language ближе к заголовку раздела */
 }
 /* ---------------------------------------------------------------------------------------------- */
+
+
+/* Стили для подвала сайта(footer) */
+.footer {
+    bottom: 0px;
+    background-color: black;
+    color: white;
+}
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+.rss-logo{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+/* -------------------------------*/
