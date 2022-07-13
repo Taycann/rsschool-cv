@@ -32,6 +32,15 @@
 /* ------------------------------------------------------------------------- */
 
 
+/* Медиазапрос */
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+/* ------------------------ */
+
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -76,3 +85,151 @@ body {
     transition: .3s;
 }
 /* ------------------------------- */
+
+
+/* Стили для секции с логотипом, номером телефона, почтой и локацией */
+.logo-profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#section-title {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.container-contacts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px solid #E8E8E8;;
+    border-bottom: 4px solid #E8E8E8;
+    font-size: 20px;
+    font-weight: 300;
+}
+.contacts {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+#contacts {
+    padding: 20px 55px 20px 55px;
+    border-right: 4px solid #E8E8E8;
+    border-left: 4px solid #E8E8E8;
+}
+/* Убирает подчеркивание ссылки у номера телефона и добавляет оформление как у ссылок в шапке */
+.telephon {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.5s;
+}
+.telephon:hover {
+    color: wheat;
+}
+/* ----------------------- */
+
+/* --------------------------------------------------------------- */
+
+
+
+/* Стили для основной части сайта (main) */
+.main {
+    background-color: white;
+}
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 50%;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 4px solid #E8E8E8;
+}
+.section-title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.link {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.5s;
+}
+.link:hover {
+    color: wheat;
+}
+#education {
+    border-bottom: none;/* Отключает нижнюю границу у последней секции */
+}
+/* Добавляет маркеры в список разделов Working Skills и Projects */
+.markers {
+    position: relative;
+    padding-left: 30px;
+    list-style-type: square;
+}
+/* ------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------- */
+
+
+/*Значки для раздела Social media*/
+.image_1{
+    position: relative;
+    padding-right: 10px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+}
+.image_2 {
+    position: relative;
+    padding-right: 10px;
+    top: 18px;
+    width: 52px;
+    height: 52px;
+}
+.image_3 {
+    position: relative;
+    padding-right: 10px;
+    top: 18px;
+    width: 50px;
+    height: 50px;
+}
+
+.contacts-item {
+    transform: translate(0px, -20px); /* Перемещает содержимое Social media ближе к заголовку раздела */
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+
+/* Значки для раздела Language */
+.image_4 {
+    position: relative;
+    padding-right: 10px;
+    top: 18px;
+    width: 50px;
+    height: 50px;
+}
+.image_5 {
+    position: relative;
+    padding-right: 10px;
+    top: 18px;
+    width: 50px;
+    height: 50px;
+}
+.lang-item {
+    transform: translate(0px, -20px); /* Перемещает содержимое Language ближе к заголовку раздела */
+}
+/* ---------------------------------------------------------------------------------------------- */
