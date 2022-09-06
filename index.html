@@ -4,8 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rsschool-cv-html</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" sizes="16x16" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#social-media" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section-profile" id="profile">
+            <img class="logo-profile" src="./assets/img/logo-profile.png" alt="photo">
+            <h1 class="section-title" id="section-title">ANDREI BONDAR</h1>
+                <div class="container-contacts">
+                    <div class="contacts">
+                        <p><a class="telephon" href="tel:+79173205543">+7&nbsp;(922)&nbsp;320&hyphen;43&hyphen;55</a></p>
+                    </div>
+                    <div class="contacts" id="contacts">
+                        <p>non.andrew@yandex.ru</p>
+                    </div>
+                    <div class="contacts">
+                        <p>Saint-Petersburg</p>
+                    </div>
+                </div>
+        </section>
+        <div class="main-container"> 
+            <section class="section" id="social-media">
+                <h2 class="section-title">SOCIAL MEDIA</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item"><img class="image_1" src="./assets/svg/github.svg" alt="github_logo"><a class="link" href="https://github.com/Taycann">Github</a></li>
+                    <li class="section-item contacts-item"><img class="image_2" src="./assets/svg/telegram.svg" alt="telegram_logo"><a class="link" href="https://t.me/werd_na">Telegram</a></li>
+                    <li class="section-item contacts-item"><img class="image_3" src="./assets/svg/discord.svg" alt="discord_logo"><a class="link" href="https://discordapp.com/users/988101784700584046/">Discord</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">SUMMARY</h2>
+                <p>I am just starting my journey in web development. I do not have a specialized education, but I have a great desire to
+                   develop in this area and learn new things. My strengths are perseverance and the desire to achieve goals. I would like
+                   to learn more about JavaScript and related web development technologies. I have a great desire to work on a real commercial
+                   project in a strong team, under the guidance of an experienced mentor.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">WORKING SKILLS</h2>
+                <ul class="section-list markers">
+                    <li class="section-item item">HTML5</li>
+                    <li class="section-item item">CSS3</li>
+                    <li class="section-item item">GIT, Github</li>
+                    <li class="section-item item">Figma</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">CODE</h2>
+                <p>function multiply(a, b){<br>
+                    return a * b<br>
+                  }</p>
+            </section>
+            <section class="section" id="language">
+                <h2 class="section-title">LANGUAGE</h2>
+                <ul class="section-list">
+                    <li class="section-item lang-item"><img class="image_4" src="./assets/svg/uk.svg" alt="uk_logo">English - A1</li>
+                    <li class="section-item lang-item"><img class="image_5" src="./assets/svg/de.svg" alt="de_logo">Deutsch - A2</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">PROJECTS</h2>
+                <ul class="section-list markers">
+                    <li class="section-item"><a class="link" href="https://taycann.github.io/PiedPiper/">PiedPiper</a>&nbsp;(project is in process of development)</li>
+                    <li class="section-item"><a class="link" href="https://taycann.github.io/rsschool-cv/cv">CV&nbsp;Markdown</a></li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">EDUCATION</h2>
+                <p>Saratov State University</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="datecreation">
+                &copy;&nbsp;2022
+                <a href="https://github.com/taycann" class="github nav-link">taycann</a>
+            </div>
+            <div class="rss-logo">
+            <a href="https://rs.school/js/" class="rss"><img src="./assets/svg/rss.svg" width="121" height="45" alt="rsshool_logo"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
